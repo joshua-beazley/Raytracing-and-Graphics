@@ -49,7 +49,7 @@ A second optimization to the Raytracer is the Bounding Volume Hierarchy (BVH). T
     <img src="Splatting/imgs/gsplat_random_learn_scale_luminance/init=random-blobs=5000-batch=0.1-LR_scale=0.001-LR_lum=0.0001-epoch=27000.0.png" width="32%" /> 
   <br>
   <br>
-  <em><b>Figure 5:</b> Gsplats struggled to spread color to their borders and to mix between one another. Left shows initial random initialization; right shows learning after 27,000 epochs  </em>
+  <em><b>Figure 5:</b> Gsplats struggled to spread color to their borders and to mix between one another. Left shows random initialization; right displays learning after 27,000 epochs.  </em>
 </p>
 
 
