@@ -58,5 +58,5 @@ A second optimization to the Raytracer is the Bounding Volume Hierarchy (BVH). T
     <img src="Splatting/imgs/gsplat_random_learn_scale_luminance/init=random-blobs=5000-batch=0.1-LR_scale=0.001-LR_lum=0.0001-epoch=12000.0.png" width="42%" />
   <br>
   <br>
-  <em><b>Figure 6:</b> After 12,000 epochs of training, many pixels in the center-top became unstable and collapsed. Some strange artefact of overfitting. </em>
+  <em><b>Figure 6:</b> After 12,000 epochs of training, many pixels in the center-top became unstable and collapsed. Some strange artifact of overfitting. </em>
 </p>
