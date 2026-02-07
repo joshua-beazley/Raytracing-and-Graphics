@@ -1,34 +1,4 @@
 
-## Voronoi Tesselation
-
-<p align="center">
-    <img src="Splatting/imgs/neighborhood_splats_powers_of_2/random-sampling_256-splats.png" width="32%" /> 
-    <img src="Splatting/imgs/neighborhood_splats_powers_of_2/random-sampling_32768-splats.png" width="32%" />
-    <img src="Splatting/imgs/neighborhood_splats_powers_of_2/random-sampling_1048576-splats.png" width="32%" />
-  <br>
-  <br>
-  <em><b>Figure 4:</b> Image clarity is improved with increased Voronoi tiles. (2^8, 2^15, 2^20) </em>
-</p>
-
-## Gaussian Splatting
-
-<p align="center">
-    <img src="Splatting/imgs/gsplat_random_learn_scale_luminance/init=random-blobs=5000-batch=0.1-LR_scale=0.001-LR_lum=0.0001-epoch=1000.0.png" width="32%" /> 
-    <img src="Splatting/imgs/gsplat_random_learn_scale_luminance/init=random-blobs=5000-batch=0.1-LR_scale=0.001-LR_lum=0.0001-epoch=27000.0.png" width="32%" /> 
-  <br>
-  <br>
-  <em><b>Figure 5:</b> Gsplats struggled to spread color to their borders and to mix between one another. Left shows initial random initialization; right shows learning after 27,000 epochs  </em>
-</p>
-
-
-<p align="center">
-    <img src="Splatting/imgs/gsplat_random_learn_scale_luminance/init=random-blobs=5000-batch=0.1-LR_scale=0.001-LR_lum=0.0001-epoch=11000.0.png" width="42%" />
-    <img src="Splatting/imgs/gsplat_random_learn_scale_luminance/init=random-blobs=5000-batch=0.1-LR_scale=0.001-LR_lum=0.0001-epoch=12000.0.png" width="42%" />
-  <br>
-  <br>
-  <em><b>Figure 6:</b> After 12,000 epochs of training, many pixels in the center-top became unstable and collapsed. Some strange artefact of overfitting. </em>
-</p>
-
 
 ## Anti-Aliasing
 
@@ -59,4 +29,34 @@ A second optimization to the Raytracer is the Bounding Volume Hierarchy (BVH). T
   <br>
   <br>
   <em><b>Figure 3:</b> The Bounding Volume Heirarchy enables complex scenes like this to be rendered in fractions of a second. </em>
+</p>
+
+## Voronoi Tesselation
+
+<p align="center">
+    <img src="Splatting/imgs/neighborhood_splats_powers_of_2/random-sampling_256-splats.png" width="32%" /> 
+    <img src="Splatting/imgs/neighborhood_splats_powers_of_2/random-sampling_32768-splats.png" width="32%" />
+    <img src="Splatting/imgs/neighborhood_splats_powers_of_2/random-sampling_1048576-splats.png" width="32%" />
+  <br>
+  <br>
+  <em><b>Figure 4:</b> Image clarity is improved with increased Voronoi tiles. (2^8, 2^15, 2^20) </em>
+</p>
+
+## Gaussian Splatting
+
+<p align="center">
+    <img src="Splatting/imgs/gsplat_random_learn_scale_luminance/init=random-blobs=5000-batch=0.1-LR_scale=0.001-LR_lum=0.0001-epoch=1000.0.png" width="32%" /> 
+    <img src="Splatting/imgs/gsplat_random_learn_scale_luminance/init=random-blobs=5000-batch=0.1-LR_scale=0.001-LR_lum=0.0001-epoch=27000.0.png" width="32%" /> 
+  <br>
+  <br>
+  <em><b>Figure 5:</b> Gsplats struggled to spread color to their borders and to mix between one another. Left shows initial random initialization; right shows learning after 27,000 epochs  </em>
+</p>
+
+
+<p align="center">
+    <img src="Splatting/imgs/gsplat_random_learn_scale_luminance/init=random-blobs=5000-batch=0.1-LR_scale=0.001-LR_lum=0.0001-epoch=11000.0.png" width="42%" />
+    <img src="Splatting/imgs/gsplat_random_learn_scale_luminance/init=random-blobs=5000-batch=0.1-LR_scale=0.001-LR_lum=0.0001-epoch=12000.0.png" width="42%" />
+  <br>
+  <br>
+  <em><b>Figure 6:</b> After 12,000 epochs of training, many pixels in the center-top became unstable and collapsed. Some strange artefact of overfitting. </em>
 </p>
